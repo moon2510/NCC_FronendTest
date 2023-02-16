@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
 
 .sidebar {
   position: fixed;
@@ -10,18 +10,19 @@
   padding-bottom: 1000px;
 }
 
+
 .sidebar a {
   display: block;
 
   width: 100%;
   color: #353535;
-  line-height: 45px;
+  line-height: 50px;
   padding-left: 16px;
   box-sizing: border-box;
   transition: all 0.5s ease;
   color: #aaaaaa;
   font-family: "Roboto";
-  border-bottom: 1px solid #aaaaaa;
+  border-bottom: 0.5px solid #aaaaaa;
 }
 .sidebar a.active {
   color: #fff;
@@ -38,5 +39,18 @@
   top: 14px;
   font-family: "Roboto";
   font-size: 16px;
-  line-height: 19px;
+}
+
+@media (max-width: 992px) {
+    .sidebar {
+        width: 15%;
+    }
+}
+@media (max-width: 576px) {
+    .sidebar a span{
+        font-size: 12px;
+    }
+    .sidebar a {
+        padding-left: 5px;
+    }
 }

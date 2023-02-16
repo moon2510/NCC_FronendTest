@@ -1,4 +1,6 @@
 import React from "react";
+import Content from "../components/content";
+import Footer from "../components/footer";
 import SideBar from "../components/sidebar";
 
 // import Footer from "./../components/Footer";
@@ -8,8 +10,8 @@ const HomePage = () => {
   return (
     <div>
       <SideBar />
-
-      
+      <Content />
+      <Footer />
     </div>
   );
 };

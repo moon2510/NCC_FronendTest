@@ -1,0 +1,16 @@
+
+.footer_wrap{
+    border-top: 1px solid #DEDEDE;
+}
+.footer_wrap p{
+    padding-left: 10%;
+    font-family: 'Roboto';
+    font-size: 16px;
+    margin: 15px 129px ;
+}
+
+@media (max-width: 1200px) {
+    .footer_wrap p{
+        margin: 15px 7% ;
+    }
+}

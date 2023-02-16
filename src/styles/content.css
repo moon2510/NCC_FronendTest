@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap");
+
+.content_wrap{
+    text-align: center;
+    padding-left: 10%;
+    font-family: "Roboto";
+    font-weight: 400;
+}
+.logoncc img{
+    width: 254px;
+    height: 100px;
+    margin-top: 20px;
+}
+.description{
+    padding: 25px 0px;
+    background-color: #EFEFEF;
+    margin: 25px 129px 0px;
+}
+h2{
+    font-size: 18px;
+    
+}
+p{
+    font-size: 16px;
+    margin: 0px 129px;
+
+}
+h1{
+    font-size: 24px;
+}
+.learn{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    padding: 25px 0px;
+    margin: 0px 129px;
+    text-align: left;
+}
+.learn img{
+    width: 120px;
+    height: 120px;
+}
+.flexdetail{
+    margin-right: 25px ;
+}
+.detail p{
+    margin: 0;
+}
+
+@media (max-width: 576px) {
+    .description{
+        margin: 25px 10px;
+    }
+    .content_wrap{
+        padding-left: 15%;
+    }
+    p{
+        margin: 0px 20px;
+    }
+    .logoncc img{
+        width: 127px;
+        height: 50px;
+    }
+    .learn{
+        display: inline;
+        margin-left: 200px;
+    }
+   
+}
+@media (max-width: 992px) {
+    .description{
+        margin: 25px 50px;
+    }
+    .content_wrap{
+        padding-left: 15%;
+    }
+    p{
+        margin: 0px 80px;
+    }
+
+    .learn img{
+        width: 80px;
+        height: 80px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .description{
+        margin: 25px 10px;
+    }
+    .content_wrap{
+        padding-left: 15%;
+    }
+    p{
+        margin: 0px 20px;
+    }
+    .logoncc img{
+        width: 215px;
+        height: 85px;
+    }
+    .learn{
+        display: inline;
+        text-align: left;
+    }
+    .detail{
+        margin-left: 12px;
+    }
+}
