@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+.sidebar {
+  position: fixed;
+  width: 10%;
+  height: 100%;
+  background-color: #191718;
+  transition: all 0.5s ease;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+  padding-bottom: 1000px;
+}
+
+.sidebar a {
+  display: block;
+
+  width: 100%;
+  color: #353535;
+  line-height: 45px;
+  padding-left: 16px;
+  box-sizing: border-box;
+  transition: all 0.5s ease;
+  color: #aaaaaa;
+  font-family: "Roboto";
+  border-bottom: 1px solid #aaaaaa;
+}
+.sidebar a.active {
+  color: #fff;
+}
+.sidebar a:hover {
+  color: #fff;
+  background: #5c5c5c;
+}
+
+.sidebar a span {
+  width: 57px;
+  height: 19px;
+  left: 16px;
+  top: 14px;
+  font-family: "Roboto";
+  font-size: 16px;
+  line-height: 19px;
+}
